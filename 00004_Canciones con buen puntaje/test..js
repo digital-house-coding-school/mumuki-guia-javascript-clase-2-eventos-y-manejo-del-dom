@@ -4,8 +4,8 @@ describe("Ejercicio 4", function() {
     
     assert(Array.isArray(lasMejores), "La variable lasMejores debe ser un array")
     
-    assert(lasMejores.length, "La variable lasMejores no tiene la cantidad correcta de elementos")
+    assert(lasMejores.length === 2, "La variable lasMejores no tiene la cantidad correcta de elementos")
     
-    assert(titulos.shift() === "Manuelita" && titulos.shift() === "El reino del revés" && titulos.shift() == "La reina batata", "La variable titulos no tiene los valores correctos")
+    assert(lasMejores.shift().nombre === "Manuelita" && lasMejores.shift().titulo === "El reino del revés", "La variable titulos no tiene los valores correctos")
   })
 })
