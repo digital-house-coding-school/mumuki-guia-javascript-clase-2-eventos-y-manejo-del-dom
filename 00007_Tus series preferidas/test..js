@@ -22,6 +22,8 @@
 it("Test series 2", function() {
   _prompt_response_ = "Friends,HIMYM"
   
+  document.querySelector("ul").innerHTML = ""
+  
   _dispatch_('load', document);
   
   var hayUltimoPrompt = _last_prompt_message_ !== null
