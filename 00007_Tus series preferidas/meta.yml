@@ -1,9 +1,10 @@
 ---
 tags: []
 layout: input_right
-editor: code
+editor: multiple_files
 type: problem
 extra_visible: false
+language: html
 manual_evaluation: false
 choices: []
 name: Tus series preferidas
