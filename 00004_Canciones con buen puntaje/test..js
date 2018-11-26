@@ -6,8 +6,6 @@ describe("Ejercicio 4", function() {
     
     assert(lasMejores.length === 2, "La variable lasMejores no tiene la cantidad correcta de elementos")
     
-    assert(false, lasMejores)
-    
-    assert(lasMejores.shift().nombre === "Manuelita" && lasMejores.shift().titulo === "El reino del revés", "La variable lasMejores no tiene los valores correctos")
+    assert(lasMejores.shift().nombre === "Manuelita" && lasMejores.shift().nombre === "El reino del revés", "La variable lasMejores no tiene los valores correctos")
   })
 })
