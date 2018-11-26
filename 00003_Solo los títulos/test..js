@@ -4,7 +4,7 @@ describe("Ejercicio 3", function() {
     
     assert(Array.isArray(titulos), "La variable titulos debe ser un array")
     
-    assert(titulos.length, "La variable titulos no tiene la cantidad correcta de elementos")
+    assert(titulos.length === 3, "La variable titulos no tiene la cantidad correcta de elementos")
     
     assert(titulos.shift() === "Manuelita" && titulos.shift() === "El reino del revés" && titulos.shift() == "La reina batata", "La variable titulos no tiene los valores correctos")
   })
