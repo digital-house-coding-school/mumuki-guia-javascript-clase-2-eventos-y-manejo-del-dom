@@ -6,5 +6,13 @@ describe("Ejercicio 1", function() {
 
 
     var resul = operarArray([10, 20, 30], sumatoria)
+    
+    assert(typeof resul === "number", "La función operarArray no esta retornando el tipo de dato apropiado. ¿Estas usando return? ¿Estas usando la operacion dada?")
+    
+    assert(resul === 60, "La función operarArray no esta retornando lo esperado. ¿Estas usando la operacion dada?")
+    
+    resul = operarArray([5,5,6], productoria)
+    
+    assert(resul === 150, "La función operarArray no esta retornando lo esperado. ¿Estas usando la operacion dada?")
   })
 })
