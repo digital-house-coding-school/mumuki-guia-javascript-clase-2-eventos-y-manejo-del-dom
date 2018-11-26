@@ -4,8 +4,6 @@ Para esto te pedimos que:
 
 > 1. A través del método `prompt` le pidas al usuario su nombre
 
-> 2. Crees a través de `document.createTextNode` un nodo de texto con el nombre del usuario
-
-> 3. Selecciones el `h1` y le agregues mediante el método `append` el nodo de texto creado previamente.
+> 2. Selecciones el `h1` y le agregues mediante `innerHTML` el texto "Bienvenido USUARIO" donde USUARIO se reemplazará por el texto ingresado en `prompt`
 
 ¡Éxitos!
