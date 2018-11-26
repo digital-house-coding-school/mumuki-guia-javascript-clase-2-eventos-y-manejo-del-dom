@@ -1,0 +1,1 @@
+Antes de meternos en el ejercicio vamos a aprender la función 
