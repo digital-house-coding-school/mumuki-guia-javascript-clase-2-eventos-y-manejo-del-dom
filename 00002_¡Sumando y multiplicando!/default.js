@@ -1,0 +1,1 @@
+var miArray = [5, 5, 6]
