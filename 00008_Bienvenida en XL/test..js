@@ -1,18 +1,6 @@
 /*<output#*//*#output>*/
 /*<tests#*/it("Saludar Dario", function() {
   document.body.classList = [];
-  Object.defineProperty(document.body.classList, 'toggle', {
-    enumerable: false,
-    writable: true,
-    value(className) {
-      let index = this.indexOf(className);
-      index > -1
-        ? this.splice(index, 1)
-        : this.push(className);
-      return !(index > -1);
-    }
-  });
-  
   
   _prompt_response_ = "Dario"
   _confirm_response_ = true
