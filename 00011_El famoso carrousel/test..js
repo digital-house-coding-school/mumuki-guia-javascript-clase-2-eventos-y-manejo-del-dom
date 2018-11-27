@@ -2,7 +2,7 @@
 /*<tests#*/it("Carrousel", function() {
   _dispatch_('load', document);
   
-  
+  _dispatch_("click", document.querySelector("button#siguiente"))
  
 });/*#tests>*/
 /*<options#*/output_ignore_scripts: true
