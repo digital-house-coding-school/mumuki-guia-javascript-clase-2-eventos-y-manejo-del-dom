@@ -22,6 +22,9 @@
       if (index >= 0) {
         this.items.splice(index,1)
       }
+    },
+    clean: function() {
+      this.items = []
     }
   }
   
@@ -44,6 +47,9 @@
 });
 
 it("Saludar Ale", function() {
+  
+  document.querySelector("h1").classList.clean()
+  
   _prompt_response_ = "Ale"
   _confirm_response_ = false
   
