@@ -22,10 +22,6 @@ it("Rojo", function() {
   
   _dispatch_('load', document);
   
-  var hayUltimoPrompt = _last_prompt_message_ !== null
-  
-  false.should.eql(hayUltimoPrompt, "<b><u>No deberías llamar a prompt fuera del evento estipulado</u></b>")
-  
   _dispatch_("click", document.querySelector("button"))
   
   hayUltimoPrompt = _last_prompt_message_ !== null
