@@ -5,6 +5,23 @@
     items: [],
     add: function(item)  {
       this.items.push(item)
+    },
+    contains: function(item) {
+      return this.items.indexOf(item) !== -1
+    },
+    toggle: function(item) {
+      if (this.contains(item)) {
+        this.remove(item)
+      } else {
+        this.add(item)
+      }
+    },
+    remove: function(item) {
+      index = this.items.indexOf(item)
+      
+      if (index >= 0) {
+        this.items.splice(index,1)
+      }
     }
   }
   
