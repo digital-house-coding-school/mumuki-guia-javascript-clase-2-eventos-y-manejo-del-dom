@@ -17,7 +17,9 @@
   </head>
   <body>
     <h1>Mi galería!</h1>
-    <img src="https://images.agoramedia.com/everydayhealth/cms/looking-at-cute-pics-helps-you-work-article.jpg">
+    <div>
+      <img src="https://images.agoramedia.com/everydayhealth/cms/looking-at-cute-pics-helps-you-work-article.jpg">
+    </div>
     <button>Anterior</button>
     <button>Siguiente</button>
   </body>
