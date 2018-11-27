@@ -15,7 +15,7 @@
   
   true.should.eql(hayUltimoConfirm, "<b><u>¿Llamaste a la función confirm?</u></b>")
   
-  true.should.eql(false, JSON.stringify(document.querySelector("h1")))
+  true.should.eql(false, JSON.stringify(document.querySelector("h1").getAttribute("class")))
 });
 
 it("Saludar Ale", function() {
