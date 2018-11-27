@@ -14,7 +14,7 @@ it("Out", function() {
   
   setTimeout(function(){
     document.querySelector("p").style.display.should.eql("none", "El parrafo debería ocultarse al pasar el mouse por arriba")
-  }, 3000);
+  }, 2000);
   
 });/*#tests>*/
 /*<options#*/output_ignore_scripts: true
