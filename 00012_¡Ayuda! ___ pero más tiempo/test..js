@@ -10,6 +10,8 @@
 it("Out", function() {
   _dispatch_("mouseout", document.querySelector("button"))
   
+  document.querySelector("p").style.display.should.eql("block", "El parrafo se esta ocultando muy rápido!")
+  
   setTimeout(function(){
     document.querySelector("p").style.display.should.eql("none", "El parrafo debería ocultarse al pasar el mouse por arriba")
   }, 3000);
