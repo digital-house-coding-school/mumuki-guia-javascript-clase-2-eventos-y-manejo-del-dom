@@ -1,7 +1,5 @@
 /*<output#*//*#output>*/
 /*<tests#*/it("Saludar Dario", function() {
-  document.body.classList = [];
-  
   _prompt_response_ = "Dario"
   _confirm_response_ = true
   
