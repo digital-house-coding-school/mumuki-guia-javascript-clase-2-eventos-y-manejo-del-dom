@@ -20,7 +20,7 @@
     <div>
       <img src="https://images.agoramedia.com/everydayhealth/cms/looking-at-cute-pics-helps-you-work-article.jpg">
     </div>
-    <button>Anterior</button>
-    <button>Siguiente</button>
+    <button id="anterior">Anterior</button>
+    <button id="siguiente">Siguiente</button>
   </body>
 </html>/*#index.html>*/
