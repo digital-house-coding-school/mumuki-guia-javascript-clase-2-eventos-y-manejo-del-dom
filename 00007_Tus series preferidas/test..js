@@ -1,6 +1,5 @@
 /*<output#*//*#output>*/
 /*<tests#*/it("Test series 1", function() {
-   setTimeout(function(){ alert("Hello"); }, 3000);
   _prompt_response_ = "Simpsons,GOT,Westworld"
   
   _dispatch_('load', document);
