@@ -1,5 +1,13 @@
 /*<output#*//*#output>*/
 /*<tests#*/it("Saludar Dario", function() {
+  
+  document.querySelector("h1").classList = {
+    items: [],
+    add: function(item)  {
+      this.items.push(item)
+    }
+  }
+  
   _prompt_response_ = "Dario"
   _confirm_response_ = true
   
