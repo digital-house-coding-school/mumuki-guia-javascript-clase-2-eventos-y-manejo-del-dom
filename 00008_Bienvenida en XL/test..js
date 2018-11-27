@@ -44,8 +44,6 @@
   true.should.eql(hayUltimoConfirm, "<b><u>¿Llamaste a la función confirm?</u></b>")
   
   document.querySelector("h1").classList.contains("xl").should.be.eql(true, "Si el confirm da true, debería estar la clase xl")
-  
-  setTimeout(function(){ alert("Hello"); }, 3000);
 });
 
 it("Saludar Ale", function() {
