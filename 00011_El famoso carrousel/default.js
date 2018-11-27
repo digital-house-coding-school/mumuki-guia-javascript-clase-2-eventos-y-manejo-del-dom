@@ -1,8 +1,7 @@
 /*<script.js#*/window.addEventListener("load", function() {
   
   var imagenes = [
-    "https://images.agoramedia.com/everydayhealth/cms/looking-at-cute-pics-helps-you-work-article.jpg",
-    "http://lifeisbetterrescue.org/images/large/kittens.jpg",
+    "https://images.agoramedia.com/everydayhealth/cms/looking-at-cute-pics-helps-you-work-article.jpg",    "http://lifeisbetterrescue.org/images/large/kittens.jpg",
     "https://vmdtoday.s3.amazonaws.com/_media/_image/Kitten-USDA-Investigation_Thumb.jpg",
     "https://pet-uploads.adoptapet.com/f/9/9/243980831.jpg"
   ]
